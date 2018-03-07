@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="/SiteAssets/JQuery/jquery1.10.2.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/jquery.SPServices-2014.01.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/ErrorLog.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/PerformanceReview.js"></script>
+    <style>
+        .error {
+            color: #f00;
+        }
+    </style>
+    <script type="text/javascript">
+        var pagetitle = "";
+        $(function () {
+            pagetitle = $("#pageTitle span#DeltaPlaceHolderPageTitleInTitleArea").text();
+            $("a[title='Show']").find("img").attr("src", L_Menu_BaseUrl+"/SiteAssets/Images/Tick.png?rev=23");
+            $("a[title='Hide']").find("img").attr("src", L_Menu_BaseUrl+"/SiteAssets/Images/Cross.png?rev=23");
+            switch ($.trim(pagetitle.toLowerCase())) {
+                case "datacleaningstatus":
+                    $("a[title='Instructions']").parent().hide();
+                    $("a[title='Help']").parent().hide();
+                    $("a[title='Missing Reportee']").parent().hide();
+                    $("a[title='Not Report']").parent().hide();                   
+                    break;
+                case "datacleaninghome":                    
+                    $("a[title='Show']").parent().hide();
+                    $("a[title='Hide']").parent().hide();
+                    break;
+                default: break;
+            }
+        });
+    </script>
+</head>
+<body>
+    <table id="Hero-WPQ2" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr class="mainaction">
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Instructions" class="ms-heroCommandLink" id="A8" onclick="ViewInstructions('DataCleaning');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img8" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -197px !important; top: -173px !important;" />
+                        </span><span>Instructions</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Help" class="ms-heroCommandLink" id="A2" onclick="CallHelp('DataCleaning');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img3" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -16px !important; top: -236px !important;" />
+                        </span><span>I need help - please contact me</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Missing Reportee" class="ms-heroCommandLink" id="A1" onclick="CallMissingReportee('DataCleaning');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img1" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -100px !important; top: -157px !important;" />
+                        </span><span>I am missing a reportee</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Not Report" class="ms-heroCommandLink" id="A3" onclick="CallNotReporting('DataCleaning');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img2" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -195px !important; top: -100px !important;" />
+                        </span><span>This employee does not report to me</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Show" class="ms-heroCommandLink" id="A4" onclick="UpdateShow();" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img4" src="/SiteAssets/Images/Tick.png?rev=23" alt="" style="left: 0px !important; top: 0px !important;" />
+                        </span><span>Shown</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Hide" class="ms-heroCommandLink" id="A5" onclick="UpdateHide();" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img5" src="/SiteAssets/Images/Cross.png?rev=23" alt="" style="left: 0px !important; top: 0px !important;" />
+                        </span><span>Hide</span></a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <span class="error"></span>
+                </td>
+            </tr>           
+        </tbody>
+    </table>
+</body>
+</html>
+

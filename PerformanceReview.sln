@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceReview", "PerformanceReview\PerformanceReview.csproj", "{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceReview.BL", "PerformanceReview.BL\PerformanceReview.BL.csproj", "{DBC42EB4-4D62-4B49-A212-2257E3CEAF9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceReview.Common", "PerformanceReview.Common\PerformanceReview.Common.csproj", "{2BB68737-7E28-48AE-ABA4-4CE4DC9A3AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceReview.DL", "PerformanceReview.DL\PerformanceReview.DL.csproj", "{D05683A4-AA78-49BD-B59D-654CAA9E538C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceReview.Extentions", "PerformanceReview.Extentions\PerformanceReview.Extentions\PerformanceReview.Extentions.csproj", "{55C63B62-E24D-439E-AC5F-9A43DF67533B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerformanceReview.ManualDeploy", "PerformanceReview.ManualDeploy", "{1B6F8591-0CFF-44C8-8207-FBA0E1AD07D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SiteAssets", "SiteAssets", "{9ED5D5C2-B5A9-4B77-A116-FD0582104F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTMLS", "HTMLS", "{50769A3D-FF68-430B-BD5E-21941B90E62B}"
+	ProjectSection(SolutionItems) = preProject
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\CompensationAdmin.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\CompensationAdmin.html
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\CompensationLetterActions.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\CompensationLetterActions.html
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\ContentForDelete.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\ContentForDelete.html
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\DataSelectionActions.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\DataSelectionActions.html
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\MissingReporteePopupaction.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\MissingReporteePopupaction.html
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\PerfomanceReviewActions.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\PerfomanceReviewActions.html
+		PerformanceReview.ManualDeploy\SiteAssets\HTMLS\printPreview.html = PerformanceReview.ManualDeploy\SiteAssets\HTMLS\printPreview.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{F78F4FDE-C301-46F1-A9E9-2F4D2BF40187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQUERY", "JQUERY", "{E10726DC-231C-40D5-8812-BA9C2FAA19E0}"
+	ProjectSection(SolutionItems) = preProject
+		PerformanceReview.ManualDeploy\SiteAssets\Jquery\DeleteFilteredItems.js = PerformanceReview.ManualDeploy\SiteAssets\Jquery\DeleteFilteredItems.js
+		PerformanceReview.ManualDeploy\SiteAssets\Jquery\jquery.fancybox.js = PerformanceReview.ManualDeploy\SiteAssets\Jquery\jquery.fancybox.js
+		PerformanceReview.ManualDeploy\SiteAssets\Jquery\jquery1.10.2.js = PerformanceReview.ManualDeploy\SiteAssets\Jquery\jquery1.10.2.js
+		PerformanceReview.ManualDeploy\SiteAssets\Jquery\PerformanceReview.js = PerformanceReview.ManualDeploy\SiteAssets\Jquery\PerformanceReview.js
+		PerformanceReview.ManualDeploy\SiteAssets\Jquery\PREditFormActions.js = PerformanceReview.ManualDeploy\SiteAssets\Jquery\PREditFormActions.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{1775E4B0-231F-4592-9A36-44A6E7939236}"
+	ProjectSection(SolutionItems) = preProject
+		PerformanceReview.ManualDeploy\SiteAssets\CSS\jquery.fancybox.css = PerformanceReview.ManualDeploy\SiteAssets\CSS\jquery.fancybox.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{3956D813-2BDE-4682-BC01-0B727F92A0D6}"
+	ProjectSection(SolutionItems) = preProject
+		PerformanceReview.ManualDeploy\Forms\CompensationLetterDisplay.aspx = PerformanceReview.ManualDeploy\Forms\CompensationLetterDisplay.aspx
+		PerformanceReview.ManualDeploy\Forms\CompensationLetterDisplay_old.aspx = PerformanceReview.ManualDeploy\Forms\CompensationLetterDisplay_old.aspx
+		PerformanceReview.ManualDeploy\Forms\CompensationLTDisplayForm.aspx = PerformanceReview.ManualDeploy\Forms\CompensationLTDisplayForm.aspx
+		PerformanceReview.ManualDeploy\Forms\CompensationLTDisplayForm_old.aspx = PerformanceReview.ManualDeploy\Forms\CompensationLTDisplayForm_old.aspx
+		PerformanceReview.ManualDeploy\Forms\PRDispForm_old.aspx = PerformanceReview.ManualDeploy\Forms\PRDispForm_old.aspx
+		PerformanceReview.ManualDeploy\Forms\PREditItem.aspx = PerformanceReview.ManualDeploy\Forms\PREditItem.aspx
+		PerformanceReview.ManualDeploy\Forms\PREditItem_old.aspx = PerformanceReview.ManualDeploy\Forms\PREditItem_old.aspx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{16793429-4D9C-485C-A2FA-3B066228F869}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\Microsoft.Office.Server.dll = Dlls\Microsoft.Office.Server.dll
+		Dlls\Microsoft.Office.Server.UserProfiles.dll = Dlls\Microsoft.Office.Server.UserProfiles.dll
+		Dlls\Microsoft.SharePoint.Client.ServerRuntime.dll = Dlls\Microsoft.SharePoint.Client.ServerRuntime.dll
+		Dlls\Microsoft.SharePoint.dll = Dlls\Microsoft.SharePoint.dll
+		Dlls\Microsoft.SharePoint.Publishing.dll = Dlls\Microsoft.SharePoint.Publishing.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A88EA0F-9D11-4215-9C7C-E5B829CDD689}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DBC42EB4-4D62-4B49-A212-2257E3CEAF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC42EB4-4D62-4B49-A212-2257E3CEAF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC42EB4-4D62-4B49-A212-2257E3CEAF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC42EB4-4D62-4B49-A212-2257E3CEAF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB68737-7E28-48AE-ABA4-4CE4DC9A3AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB68737-7E28-48AE-ABA4-4CE4DC9A3AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB68737-7E28-48AE-ABA4-4CE4DC9A3AE7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2BB68737-7E28-48AE-ABA4-4CE4DC9A3AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB68737-7E28-48AE-ABA4-4CE4DC9A3AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05683A4-AA78-49BD-B59D-654CAA9E538C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05683A4-AA78-49BD-B59D-654CAA9E538C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05683A4-AA78-49BD-B59D-654CAA9E538C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D05683A4-AA78-49BD-B59D-654CAA9E538C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05683A4-AA78-49BD-B59D-654CAA9E538C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C63B62-E24D-439E-AC5F-9A43DF67533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C63B62-E24D-439E-AC5F-9A43DF67533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C63B62-E24D-439E-AC5F-9A43DF67533B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55C63B62-E24D-439E-AC5F-9A43DF67533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C63B62-E24D-439E-AC5F-9A43DF67533B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C63B62-E24D-439E-AC5F-9A43DF67533B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9ED5D5C2-B5A9-4B77-A116-FD0582104F5D} = {1B6F8591-0CFF-44C8-8207-FBA0E1AD07D2}
+		{50769A3D-FF68-430B-BD5E-21941B90E62B} = {9ED5D5C2-B5A9-4B77-A116-FD0582104F5D}
+		{F78F4FDE-C301-46F1-A9E9-2F4D2BF40187} = {9ED5D5C2-B5A9-4B77-A116-FD0582104F5D}
+		{E10726DC-231C-40D5-8812-BA9C2FAA19E0} = {9ED5D5C2-B5A9-4B77-A116-FD0582104F5D}
+		{1775E4B0-231F-4592-9A36-44A6E7939236} = {9ED5D5C2-B5A9-4B77-A116-FD0582104F5D}
+		{3956D813-2BDE-4682-BC01-0B727F92A0D6} = {1B6F8591-0CFF-44C8-8207-FBA0E1AD07D2}
+	EndGlobalSection
+EndGlobal

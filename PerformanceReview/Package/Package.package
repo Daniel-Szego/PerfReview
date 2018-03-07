@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f9bac5ad-ea82-44ba-86e3-4077d26f2204" solutionId="f9bac5ad-ea82-44ba-86e3-4077d26f2204" resetWebServer="false" sharePointProductVersion="15.0" name="PerformanceReview" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="Axalta.EMEA.PerformanceReview.BL.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Axalta.EMEA.PerformanceReview.BL\PerformanceReview.BL.csproj">
+      <safeControls>
+        <safeControl assemblyName="Axalta.EMEA.PerformanceReview.BL" namespaceName="Axalta.EMEA.PerformanceReview.BL.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Axalta.EMEA.PerformanceReview.DataContracts.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Axalta.EMEA.PerformanceReview.DataContracts\Axalta.EMEA.PerformanceReview.DataContracts.csproj">
+      <safeControls>
+        <safeControl assemblyName="Axalta.EMEA.PerformanceReview.DataContracts" namespaceName="Axalta.EMEA.PerformanceReview.DataContracts.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Axalta.EMEA.PerformanceReview.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Axalta.EMEA.PerformanceReview.Common\PerformanceReview.Common.csproj">
+      <safeControls>
+        <safeControl assemblyName="Axalta.EMEA.PerformanceReview.Common" namespaceName="Axalta.EMEA.PerformanceReview.Common.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Axalta.EMEA.PerformanceReview.DL.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Axalta.EMEA.PerformanceReview.DL\PerformanceReview.DL.csproj">
+      <safeControls>
+        <safeControl assemblyName="Axalta.EMEA.PerformanceReview.DL" namespaceName="Axalta.EMEA.PerformanceReview.DL.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="26a651c7-df2c-4fb8-9e68-45b8ac01ffd3" />
+    <featureReference itemId="6aeab9ee-201d-451c-b086-c327581e7702" />
+  </features>
+</package>

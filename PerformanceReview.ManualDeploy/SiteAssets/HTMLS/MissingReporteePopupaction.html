@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="/SiteAssets/JQuery/jquery1.10.2.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/jquery.SPServices-2014.01.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/ErrorLog.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/PerformanceReview.js"></script>
+    <style>
+        .error {
+            color: #f00;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            JSRequest.EnsureSetup();
+            var Isdlg = JSRequest.QueryString["IsDlg"];
+            if (Isdlg == 1) {
+                $("#s4-ribbonrow").css("display", "none");
+                $("#s4-ribboncont").css("display", "none");
+            }
+        });
+    </script>
+</head>
+<body>
+    <table id="Hero-WPQ2" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td class="span12">
+                    <span>Please select from the list the reportee missing</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="ms-toolbar" align="right">
+                   <!-- <a title="oK" class="ms-heroCommandLink" id="Aok" onclick="javascript:TriggerMissingReporteeMail();" style="cursor: pointer;">
+                        <span>Ok</span>
+                    </a>-->
+                    <input type="button" title="Ok" value="Ok" onclick="javascript:TriggerMissingReporteeMail();" />
+                </td>                
+                <td class="ms-toolbar" align="left">
+                    <!--<a title="oK" class="ms-heroCommandLink" id="Acan" onclick="javascript:ClosePopup();" style="cursor: pointer;">
+                        <span>Cancel</span>
+                    </a>-->
+                    <input type="button" title="Cancel" value="Cancel" onclick="javascript:ClosePopup();" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <span class="error"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

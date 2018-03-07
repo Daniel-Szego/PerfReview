@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <CustomAction ScriptSrc="~SiteCollection/SiteAssets/JQuery/jquery1.10.2.js"
+                Location="ScriptLink"
+                Sequence="100">
+  </CustomAction>  
+  <CustomAction ScriptSrc="~SiteCollection/SiteAssets/JQuery/jquery.SPServices-2014.01.js"
+                Location="ScriptLink"
+                Sequence="200">
+  </CustomAction>
+  <CustomAction ScriptSrc="~SiteCollection/SiteAssets/JQuery/ErrorLog.js"
+                Location="ScriptLink"
+                Sequence="250">
+  </CustomAction>
+  <CustomAction ScriptSrc="~SiteCollection/SiteAssets/JQuery/PRSecurity.js"
+                Location="ScriptLink"
+                Sequence="300">
+  </CustomAction>
+</Elements>

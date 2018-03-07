@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="/SiteAssets/JQuery/jquery1.10.2.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/jquery.SPServices-2014.01.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/ErrorLog.js"></script>
+    <script type="text/javascript" src="/SiteAssets/JQuery/PerformanceReview.js"></script>
+    <style>
+        .error {
+            color: #f00;
+        }
+    </style>   
+</head>
+<body>
+    <table id="Hero-WPQ2" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr class="mainaction">
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Instructions" class="ms-heroCommandLink" id="A8" onclick="ViewInstructions('Performance');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img8" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -197px !important; top: -173px !important;" />
+                        </span><span>Instructions</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Help" class="ms-heroCommandLink" id="A2" onclick="CallHelp('PerformanceReview');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img3" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -16px !important; top: -236px !important;" />
+                        </span><span>I need help - please contact me</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Missing Reportee" class="ms-heroCommandLink" id="A1" onclick="CallMissingReportee('PerformanceReview');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img1" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -100px !important; top: -157px !important;" />
+                        </span><span>I am missing a reportee</span></a>
+                </td>
+                <td class="ms-list-addnew ms-textLarge ms-list-addnew-aligntop ms-soften">&#160;
+                    <a title="Not Report" class="ms-heroCommandLink" id="A3" onclick="CallNotReporting('PerformanceReview');" style="cursor: pointer;">
+                        <span class="ms-list-addnew-imgSpan20">
+                            <img class="ms-list-addnew-img20" id="Img2" src="/_layouts/15/images/spcommon.png?rev=23" alt="" style="left: -195px !important; top: -100px !important;" />
+                        </span><span>This employee does not report to me</span></a>
+                </td>               
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <span class="error"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
